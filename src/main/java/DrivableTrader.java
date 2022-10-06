@@ -22,7 +22,7 @@ public class DrivableTrader extends Trader<Drivable> {
     }
 
     public DrivableTrader(int money) {
-        super(new ArrayList<Drivable>(), new ArrayList<Drivable>(), money);
+        super(money);
     }
     @Override
     public int getSellingPrice(Drivable obj) {
